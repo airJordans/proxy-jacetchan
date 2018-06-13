@@ -6,11 +6,11 @@ const port = process.env.PORT || 3000;
 app.use('/listings/:id', express.static(path.join(__dirname, 'public')));
 
 app.get('/listings/:listingId/overviews', (req, res) => {
-    res.redirect(`http://localhost:3003${req.url}`);
+  res.redirect(`http://localhost:3003${req.url}`);
 });
 
 app.get('/listings/:listingId/reviews', (req, res) => {
-    res.redirect(`http://localhost:3003${req.url}`);
+  res.redirect(`http://localhost:3003${req.url}`);
 });
 
 // app.get('/listings/:listingId/reviews', (req, res) => {
