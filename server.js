@@ -28,10 +28,6 @@ app.get('/listings/:listingId/pictures', (req, res) => {
   res.redirect(`http://localhost:3004${req.url}`);
 });
 
-// app.get('/listings/:listingId/pictures??????', (req, res) => {
-//   res.redirect(`http://localhost:3004${req.url}`);
-// });
-
 // handles description routes
 
 app.get('/listings/:listingId/overview', (req, res) => {
