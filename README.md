@@ -14,7 +14,7 @@ below.
 3. For each of the modules listed in Step 2, follow the instructions listed in their respective READMEs in order to seed their database. Finish this step before moving on.
 4. Navigate into `project-nomad` and clone this repo: `git clone https://github.com/project-nomad/proxy-jacetchan.git`.
 5. Navigate into `proxy-jacetchan` and run `npm install`.
-6. Run `npm run react-dev-all`. This will run the `babel` with the `--watch` for each microservice.
+6. Run `npm run react-dev-all`. This will run `babel` with the `--watch` flag for each microservice.
 7. Create a new terminal instance in order to proceed with the next steps.
 8. Run `grunt concat`. This will create _one_ `bundle.js` sourced from each module's bundle file.
 9. Run `grunt cssmin` to minify the CSS file in `public`.
