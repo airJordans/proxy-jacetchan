@@ -22,6 +22,7 @@ below.
 11. Run `npm run serve-all`. This will launch the following local hosts: `3000`, `3001`, `3002`, `3003`, and `3004`.
 12. In a browser navigate to `localhost:3000/listings/:id` where `:id` is defined
 to be any number between 1 through 100 (inclusive).
+13. Enjoy your new Airbnb experience. ✌️
 
 # Notes
 * Currently, `index.html` is set up to __not__ use the minified stylesheet and minified bundle that is hosted on S3 (it is currently commented out). An update will be pushed after Phase 3 - Dockerize is completed. Please note that this should _not_ currently affect expected behavior.
