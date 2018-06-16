@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server.js",
+    "start": "node ./server.js",
     "s1": "cd ../booking-module/ && npm run start-server",
     "s2": "cd ../listing-description-module/ && npm run start-server",
     "s3": "cd ../review-module/ && npm run serve",
