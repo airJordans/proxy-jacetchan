@@ -25,7 +25,7 @@ app.get('/listings/:listingId/booking/availability/', (req, res) => {
 
 // handles carousel routes
 app.get('/listings/:listingId/pictures', (req, res) => {
-  res.redirect(`http://localhost:3004${req.url}`);
+  res.redirect(`http://ec2-18-208-170-149.compute-1.amazonaws.com${req.url}`);
 });
 
 // handles description routes
