@@ -16,11 +16,11 @@ app.get('/listings/:listingId/reviews', (req, res) => {
 
 // handles booking routes
 app.get('/listings/:listingId/booking/core', (req, res) => {
-  res.redirect(`http://ec2-54-183-255-196.us-west-1.compute.amazonaws.com${req.url}`);
+  res.redirect(`http://ec2-54-67-69-199.us-west-1.compute.amazonaws.com${req.url}`);
 });
 
 app.get('/listings/:listingId/booking/availability/', (req, res) => {
-  res.redirect(`http://ec2-54-183-255-196.us-west-1.compute.amazonaws.com/${req.url}`);
+  res.redirect(`http://ec2-54-67-69-199.us-west-1.compute.amazonaws.com${req.url}`);
 });
 
 // handles carousel routes
