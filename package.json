@@ -27,8 +27,11 @@
   },
   "homepage": "https://github.com/project-nomad/proxy-jacetchan#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "grunt": "^1.0.3",
+    "newrelic": "^4.2.1",
     "nodemon": "^1.17.5"
   },
   "devDependencies": {
